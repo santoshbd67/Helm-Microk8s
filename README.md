@@ -55,8 +55,8 @@ helmfile --version
 ---
 releases:
 
-  - name: reditclone
-    chart: ./regapp
+  - name: reditclone      #chart name
+    chart: ./regapp        #chart directory
     installed: true
 ```
 
