@@ -60,5 +60,18 @@ releases:
     installed: true
 ```
 
+### Helmfile to get chart from remote repo
+```
+---
+repositories:
+  - name: nmae of the chart
+    url: github repo url
+
+  - name: reditclone      #chart name
+    chart: ./regapp        #chart directory
+    installed: true
+```
+  
+
   
 
