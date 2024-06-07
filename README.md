@@ -29,10 +29,6 @@ mkdir .kube
 cd .kube
 microk8s config > config
 ```
-### Install helm-git plugin
-```
-helm plugin install https://github.com/aslafy-z/helm-git.git
-```
 
 ### Helm installation
 ```
@@ -63,6 +59,10 @@ releases:
   - name: reditclone      #chart name
     chart: ./regapp        #chart directory
     installed: true
+```
+### Install helm-git plugin
+```
+helm plugin install https://github.com/aslafy-z/helm-git.git
 ```
 
 ### Helmfile to get chart from remote repo
