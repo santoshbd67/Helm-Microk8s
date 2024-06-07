@@ -42,3 +42,11 @@ sudo apt install helm -y
 helm version
 ```
 
+### Helmfile Installation
+```
+wget https://github.com/roboll/helmfile/releases/download/v0.144.0/helmfile_linux_amd64
+chmod +x helmfile_linux_amd64
+sudo mv helmfile_linux_amd64 /usr/local/bin/helmfile
+helmfile --version
+```
+
