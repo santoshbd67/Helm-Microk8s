@@ -24,10 +24,10 @@ newgrp microk8s
 
 ### Create .kube dir
 ```
-    cd $HOME
-    mkdir .kube
-    cd .kube
-    microk8s config > config
+cd $HOME
+mkdir .kube
+cd .kube
+microk8s config > config
 ```
 ### Helm installation
 ```
