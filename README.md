@@ -16,4 +16,10 @@ kubectl version --short --client
 
 ### Install MicroK8s on Linux
 
-sudo snap install microk8s --classic
+``` sudo snap install microk8s --classic
+microk8s status --wait-ready
+sudo usermod -a -G microk8s ubuntu
+newgrp microk8s ```
+
+
+
