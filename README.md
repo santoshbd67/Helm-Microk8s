@@ -24,14 +24,14 @@ newgrp microk8s
 
 ### Create .kube dir
 ```
-cd $HOME
+    cd $HOME
     mkdir .kube
     cd .kube
     microk8s config > config
 ```
 ### Helm installation
 ```
-    sudo apt update
+sudo apt update
 sudo apt upgrade -y
 sudo apt install curl -y
 curl https://baltocdn.com/helm/signing.asc | sudo apt-key add -
