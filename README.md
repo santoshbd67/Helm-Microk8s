@@ -29,6 +29,11 @@ mkdir .kube
 cd .kube
 microk8s config > config
 ```
+### Install helm-git plugin
+```
+helm plugin install https://github.com/aslafy-z/helm-git.git
+```
+
 ### Helm installation
 ```
 sudo apt update
