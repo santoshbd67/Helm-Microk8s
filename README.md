@@ -19,8 +19,14 @@ kubectl version --short --client
 ``` sudo snap install microk8s --classic
 microk8s status --wait-ready
 sudo usermod -a -G microk8s ubuntu
-newgrp microk8s ```
+newgrp microk8s
+```
 
 ### Create .kube dir
+``` cd $HOME
+    mkdir .kube
+    cd .kube
+    microk8s config > config
+```
 
 
