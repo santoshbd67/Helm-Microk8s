@@ -13,3 +13,7 @@ chmod +x ./kubectl
 sudo mv ./kubectl /usr/local/bin
 kubectl version --short --client
 ```
+
+### Install MicroK8s on Linux
+
+sudo snap install microk8s --classic
