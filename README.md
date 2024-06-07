@@ -50,3 +50,15 @@ sudo mv helmfile_linux_amd64 /usr/local/bin/helmfile
 helmfile --version
 ```
 
+### Helmfile
+```
+---
+releases:
+
+  - name: reditclone
+    chart: ./regapp
+    installed: true
+```
+
+  
+
