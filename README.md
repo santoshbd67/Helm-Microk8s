@@ -21,5 +21,6 @@ microk8s status --wait-ready
 sudo usermod -a -G microk8s ubuntu
 newgrp microk8s ```
 
+### Create .kube dir
 
 
