@@ -23,7 +23,8 @@ newgrp microk8s
 ```
 
 ### Create .kube dir
-``` cd $HOME
+```
+cd $HOME
     mkdir .kube
     cd .kube
     microk8s config > config
