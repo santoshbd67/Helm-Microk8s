@@ -1,7 +1,7 @@
 ### Step 1: Install Docker
 ``` shell
 sudo apt-get update
-sudo apt install docker.io
+sudo apt install docker.io -y
 docker ps
 sudo chown $USER /var/run/docker.sock
 ```
