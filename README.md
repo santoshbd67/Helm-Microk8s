@@ -1,3 +1,9 @@
+### Step 1: Install CLI
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+sudo apt install unzip
+unzip awscliv2.zip
+sudo ./aws/install -i /usr/local/aws-cli -b /usr/local/bin --update
+aws configure
 ### Step 1: Install Docker
 ``` shell
 sudo apt-get update
